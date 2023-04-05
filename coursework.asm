@@ -84,7 +84,7 @@ proc:
   loop:
     lw $a0 4($s1) # load a
     lw $a1 0($s1) # load b
-    lw $a2 24($s1) # load c
+    lw $a2 20($s1) # load c
     lw $a3 8($s1) # load d
 
     jal evalX
